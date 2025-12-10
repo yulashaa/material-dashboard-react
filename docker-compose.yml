@@ -3,7 +3,7 @@ version: '3.9'
 services:
 
   app:
-    build: .
+    image: yuliazapletnyuk/material-dashboard-react:latest
     container_name: react_app
     ports:
       - "80:80"
